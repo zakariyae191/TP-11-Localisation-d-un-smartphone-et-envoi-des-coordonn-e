@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Test Postman - createPosition.php</title>
+</head>
+<body>
+    <h1>Tester createPosition.php avec Postman</h1>
+    <ol>
+        <li>Choisir la méthode <strong>POST</strong>.</li>
+        <li>Utiliser l'URL <code>http://localhost/localisation/createPosition.php</code>.</li>
+        <li>Dans <strong>Body</strong>, choisir <strong>x-www-form-urlencoded</strong>.</li>
+        <li>Ajouter les paramètres ci-dessous.</li>
+    </ol>
+
+    <table border="1" cellpadding="8">
+        <tr><th>Clé</th><th>Valeur</th></tr>
+        <tr><td>latitude</td><td>31.64467319</td></tr>
+        <tr><td>longitude</td><td>-8.01915503</td></tr>
+        <tr><td>date_position</td><td>2026-04-29 17:02:23</td></tr>
+        <tr><td>imei</td><td>test-device-001</td></tr>
+    </table>
+
+    <p>Réponse attendue :</p>
+    <pre>{
+  "success": true,
+  "message": "Position enregistrée avec succès"
+}</pre>
+</body>
+</html>

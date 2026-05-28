@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Localisation Smartphone</string>
+    <string name="btn_get_send">Récupérer et envoyer la position</string>
+    <string name="btn_test_server">Tester serveur</string>
+</resources>
